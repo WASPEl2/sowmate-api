@@ -132,4 +132,4 @@ def ping():
 
 # Run the Flask app
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host="192.168.1.103", port=500)
